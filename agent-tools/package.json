@@ -1,0 +1,14 @@
+{
+  "name": "twenty-four-solar-terms-agent-tools",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Agent-side tooling for the 24 solar terms project. Not required at runtime.",
+  "scripts": {
+    "build:doc": "node build-doc.js",
+    "check:doc": "node build-doc.js --check",
+    "watch:doc": "node build-doc.js --watch"
+  },
+  "devDependencies": {
+    "marked": "^18.1.1"
+  }
+}
